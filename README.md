@@ -68,7 +68,7 @@ BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_secret_key
 ```
 
-### Binance Futures Testnet
+## Binance Futures Testnet
 
 - Base URL used by the application:
 ``` bash
