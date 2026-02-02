@@ -67,7 +67,7 @@ Create a .env file in the project root:
 BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_secret_key
 ```
-
+---
 ## Binance Futures Testnet
 
 - Base URL used by the application:
@@ -78,7 +78,7 @@ https://testnet.binancefuture.com
  - Testnet funds are added via the demo UI using Get Testnet USDT
  - No real money is involved
 
-
+---
 ## How to Run
 
 Make sure the virtual environment is activated.
@@ -112,8 +112,8 @@ python3 cli.py \
   --price 43000
   ```
 
-
-## CLI Output:
+---
+## CLI Output
 
 - Each command prints:
 
@@ -123,7 +123,7 @@ python3 cli.py \
   - Executed quantity
   - Average price (if available)
 - Success or error message
-
+---
 ## Logging
 All API requests, responses, and errors are logged to files.
 
@@ -139,7 +139,7 @@ All API requests, responses, and errors are logged to files.
  - logs/limit_order.log
 
  - logs/stop_limit_order.log
-
+---
 ## Error Handling
 
 #### The application handles:
@@ -158,7 +158,7 @@ All API requests, responses, and errors are logged to files.
 - Displayed in the CLI
 
 - Logged with timestamps
-
+---
 ## Assumptions & Notes
 - Binance Futures Testnet may return:
 
