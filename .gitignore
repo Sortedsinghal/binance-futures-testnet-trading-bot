@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Logs (keep only submission logs)
+logs/bot.log
+
+# OS files
+.DS_Store
